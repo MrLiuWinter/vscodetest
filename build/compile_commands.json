@@ -1,0 +1,8 @@
+[
+{
+  "directory": "D:/test/vscodetest/build",
+  "command": "D:\\code-using\\MinGW64\\bin\\g++.exe   -g -o CMakeFiles\\HelloWorld.dir\\main.cpp.obj -c D:\\test\\vscodetest\\main.cpp",
+  "file": "D:/test/vscodetest/main.cpp",
+  "output": "CMakeFiles/HelloWorld.dir/main.cpp.obj"
+}
+]
