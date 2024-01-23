@@ -27,7 +27,7 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "D:/code-using/CMake3.27.5/bin/cmake.exe" "D:/test/vscodetest"
+ConfigureCommand: "D:/code-using/Mingw64/bin/cmake.exe" "D:/test/vscodetest"
 MakeCommand: D:/code-using/CMake3.27.5/bin/cmake.exe --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 
@@ -64,7 +64,7 @@ UpdateType: git
 
 # Compiler info
 Compiler: D:/code-using/MinGW64/bin/g++.exe
-CompilerVersion: 8.1.0
+CompilerVersion: 13.2.0
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 

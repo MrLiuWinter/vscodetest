@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/HelloWorld.dir/main.cpp.obj"
   "CMakeFiles/HelloWorld.dir/main.cpp.obj.d"
-  "HelloWorld.exe"
-  "HelloWorld.exe.manifest"
-  "HelloWorld.pdb"
-  "libHelloWorld.dll.a"
+  "Debug/bin/HelloWorld.exe"
+  "Debug/bin/HelloWorld.exe.manifest"
+  "Debug/bin/HelloWorld.pdb"
+  "Debug/lib/libHelloWorld.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -5,14 +5,24 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "helloWorld",
+            "name": "Voronoi",
             "type": "cppvsdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/main.exe",
+            "program": "${workspaceFolder}/build/Debug/bin/Voronoi.exe",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "${fileDirname}",
-            "environment": [],
+            "cwd": "${workspaceFolder}/build/Debug/bin",
+            "preLaunchTask": "cmake_gcc",  //对应tasks.json文件的label
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "helloWorld",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/Debug/bin/HelloWorld.exe",
+            "args": [],
+            "cwd": "${workspaceFolder}/build/Debug/bin",
+            "preLaunchTask": "cmake_gcc",
             "console": "integratedTerminal"
         }
 
