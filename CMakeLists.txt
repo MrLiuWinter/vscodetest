@@ -58,6 +58,10 @@ endif()
 
 add_executable(HelloWorld main.cpp)
 
-set(CPACK_PROJECT_NAME ${PROJECT_NAME})
-set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
-include(CPack)
+# 测试模块
+# include(CTest)
+#enable_testing()
+# 打包模块
+# set(CPACK_PROJECT_NAME ${PROJECT_NAME})
+# set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
+# include(CPack)
