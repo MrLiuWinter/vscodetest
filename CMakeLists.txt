@@ -21,6 +21,7 @@ endif()
 # 根目录
 set(ROOTPATH ${PROJECT_SOURCE_DIR})
 set(BUILDPATH ${PROJECT_BINARY_DIR})
+message("构建目录："${PROJECT_BINARY_DIR})
 set(INCPATH ${ROOTPATH}/include)
 set(LIBPATH ${ROOTPATH}/lib)
 
@@ -63,7 +64,3 @@ add_executable(HelloWorld main.cpp)
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
 include(CPack)
-
-set(ROOTPATH ${PROJECT_SOURCE_DIR})
-set(BUILDPATH ${PROJECT_BINARY_DIR})
-set(INCPATH ${ROOTPATH/include})

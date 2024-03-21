@@ -22,11 +22,11 @@ set(CMAKE_CXX_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "D:/code-using/MinGW64/bin/ar.exe")
-set(CMAKE_CXX_COMPILER_AR "D:/code-using/MinGW64/bin/gcc-ar.exe")
-set(CMAKE_RANLIB "D:/code-using/MinGW64/bin/ranlib.exe")
-set(CMAKE_CXX_COMPILER_RANLIB "D:/code-using/MinGW64/bin/gcc-ranlib.exe")
-set(CMAKE_LINKER "D:/code-using/MinGW64/bin/ld.exe")
+set(CMAKE_AR "D:/code-using/Mingw64/bin/ar.exe")
+set(CMAKE_CXX_COMPILER_AR "D:/code-using/Mingw64/bin/gcc-ar.exe")
+set(CMAKE_RANLIB "D:/code-using/Mingw64/bin/ranlib.exe")
+set(CMAKE_CXX_COMPILER_RANLIB "D:/code-using/Mingw64/bin/gcc-ranlib.exe")
+set(CMAKE_LINKER "D:/code-using/Mingw64/bin/ld.exe")
 set(CMAKE_MT "")
 set(CMAKE_TAPI "CMAKE_TAPI-NOTFOUND")
 set(CMAKE_COMPILER_IS_GNUCXX 1)

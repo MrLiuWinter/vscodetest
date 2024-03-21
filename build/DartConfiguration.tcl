@@ -28,7 +28,7 @@ NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
 ConfigureCommand: "D:/code-using/Mingw64/bin/cmake.exe" "D:/test/vscodetest"
-MakeCommand: D:/code-using/CMake3.27.5/bin/cmake.exe --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
+MakeCommand: D:/code-using/Mingw64/bin/cmake.exe --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
 # version control
@@ -81,7 +81,7 @@ MemoryCheckCommandOptions:
 MemoryCheckSuppressionFile: 
 
 # Coverage
-CoverageCommand: D:/code-using/MinGW64/bin/gcov.exe
+CoverageCommand: D:/code-using/Mingw64/bin/gcov.exe
 CoverageExtraFlags: -l
 
 # Testing options

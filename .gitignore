@@ -1,0 +1,12 @@
+# ---> CMake
+CMakeCache.txt
+CMakeFiles
+compile_commands.json
+
+# ---> C
+*.d
+
+#Libraries
+*.Libraries
+*.a
+*.lo
