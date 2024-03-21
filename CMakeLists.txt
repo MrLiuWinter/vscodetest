@@ -21,7 +21,7 @@ endif()
 # 根目录
 set(ROOTPATH ${PROJECT_SOURCE_DIR})
 set(BUILDPATH ${PROJECT_BINARY_DIR})
-message("构建目录："${PROJECT_BINARY_DIR})
+message("构建目录：" ${PROJECT_BINARY_DIR})
 set(INCPATH ${ROOTPATH}/include)
 set(LIBPATH ${ROOTPATH}/lib)
 
@@ -55,9 +55,6 @@ else ()
     set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${BUILDPATH}/${CMAKE_BUILD_TYPE}/bin)
 endif()
 
-
-include(CTest)
-enable_testing()
 
 add_executable(HelloWorld main.cpp)
 
