@@ -3,5 +3,5 @@
     "C_Cpp.formatting": "clangFormat",
     "C_Cpp.default.compilerPath": "",
     "cmake.configureOnOpen": true,
-    "cmake.parallelJobs": 0
+    "cmake.parallelJobs": 0,
 }

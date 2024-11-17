@@ -58,6 +58,12 @@ endif()
 
 add_executable(HelloWorld main.cpp)
 
+#########################
+set(REQUIRED ${BUILDPATH}/${CMAKE_BUILD_TYPE}/lib)
+project(my_hpx_project CXX)
+find_package(HPX REQUIRED)
+add_executable(my_hpx_program main.cpp)
+target_link_libraries(my_hpx_program HPX::hpx HPX::wrap_main HPX::iostreams_component)
 # 测试模块
 # include(CTest)
 #enable_testing()
