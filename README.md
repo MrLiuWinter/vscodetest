@@ -36,3 +36,13 @@ git push
 git stash  //暂存修改  
 git reset --hard  //强制重置  
 git reset --soft  //软重置  
+
+//建立远程链接
+PS D:\test\vscodetest> git branch -vv
+  bak  c1a8f13 2024-11-18
+* main c1a8f13 [origin/main] 2024-11-18
+PS D:\test\vscodetest> git branch --set-upstream-to=origin/main bak              
+branch 'bak' set up to track 'origin/main'.
+PS D:\test\vscodetest> git branch -vv
+  bak  c1a8f13 [origin/main] 2024-11-18
+* main c1a8f13 [origin/main] 2024-11-18
