@@ -3,6 +3,7 @@ commit-id  // 版本标志的MD5编码
 git init //初始化文件夹
 
 git branch -M main
+git branch -d bak  //删除分支
 
 git remote add origin git@github.com:MrLiuWinter/vscodetest.git
 
